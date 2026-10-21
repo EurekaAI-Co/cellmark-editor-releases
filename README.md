@@ -33,6 +33,8 @@ The app is available in English and Korean. The license agreement is currently a
 
 Download `Cellmark-Editor-Setup-<version>.exe` from [Releases](https://github.com/EurekaAI-Co/cellmark-editor-releases/releases/latest). Each release lists the installer's SHA-256 in its notes and in `SHA256SUMS.txt`.
 
+If you cannot download from GitHub, download from our website: <https://eurekax.co/cellmark-editor/releases>
+
 To check that the download is intact, run this in PowerShell and compare the result with the SHA-256 in the release notes:
 
 ```powershell
@@ -114,6 +116,8 @@ Cellmark Editor는 표에 특히 강한, 빠르고 가벼운 Markdown 편집기�
 ### 내려받기
 
 [Releases](https://github.com/EurekaAI-Co/cellmark-editor-releases/releases/latest)에서 `Cellmark-Editor-Setup-<판>.exe`를 받습니다. 릴리스마다 설치 파일의 SHA-256을 본문과 `SHA256SUMS.txt`에 적어 둡니다.
+
+GitHub에서 받을 수 없으면 홈페이지에서 받습니다: <https://eurekax.co/cellmark-editor/releases>
 
 받은 파일이 온전한지 확인하려면, PowerShell에서 아래 명령의 결과가 릴리스 본문의 SHA-256과 같은지 봅니다.
 
