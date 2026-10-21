@@ -25,7 +25,7 @@ The app is available in English and Korean. The license agreement is currently a
 ### System requirements
 
 - Windows 10 (version 1809 or later) or Windows 11, 64-bit
-- About 350 MB of disk space. Table recognition uses about 0.5 GB of extra memory while it runs.
+- About 380 MB of disk space. Table recognition uses about 0.5 GB of extra memory while it runs.
 - No graphics card or internet connection is needed.
 - Installing requires administrator rights (the app is installed for all users).
 
@@ -107,7 +107,7 @@ Cellmark Editor는 표에 특히 강한, 빠르고 가벼운 Markdown 편집기�
 ### 필요한 것
 
 - Windows 10(1809 이상) 또는 Windows 11, 64비트
-- 디스크 약 350MB. 표를 인식할 때 메모리를 약 0.5GB 더 씁니다.
+- 디스크 약 380MB. 표를 인식할 때 메모리를 약 0.5GB 더 씁니다.
 - 그래픽 카드와 인터넷 연결은 필요 없습니다.
 - 설치에는 관리자 권한이 필요합니다(모든 사용자용으로 설치됩니다).
 
