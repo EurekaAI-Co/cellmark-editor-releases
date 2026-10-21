@@ -2,7 +2,7 @@
 
 A fast, lightweight Markdown editor for Windows that is especially good with tables.
 
-**[Download the latest version](https://github.com/EurekaAI-Co/cellmark-editor-releases/releases/latest)**
+**[Download the latest version](https://github.com/EurekaAI-Co/cellmark-editor-releases/releases/latest)** · [Website](https://eurekax.co/cellmark-editor)
 
 This repository only hosts the Windows installers. The source code is not public.
 
@@ -82,7 +82,7 @@ If Cellmark Editor is already running, a file you open is added as a new tab in 
 ## Contact
 
 Bug reports, feedback, and technology or adoption inquiries: **contact@eurekax.co**. Issues are not used in this repository.
-Website: https://eurekax.co
+Website: https://eurekax.co/cellmark-editor
 
 ## Trademarks
 
@@ -115,7 +115,7 @@ Cellmark Editor는 표에 특히 강한, 빠르고 가벼운 Markdown 편집기�
 
 [Releases](https://github.com/EurekaAI-Co/cellmark-editor-releases/releases/latest)에서 `Cellmark-Editor-Setup-<판>.exe`를 받습니다. 릴리스마다 설치 파일의 SHA-256을 본문과 `SHA256SUMS.txt`에 적어 둡니다.
 
-GitHub에서 받을 수 없으면 홈페이지에서 받습니다: <https://eurekax.co/cellmark-editor/releases>
+GitHub에서 받을 수 없으면 홈페이지에서 받습니다: <https://eurekax.co/ko/cellmark-editor/releases>
 
 받은 파일이 온전한지 확인하려면, PowerShell에서 아래 명령의 결과가 릴리스 본문의 SHA-256과 같은지 봅니다.
 
@@ -168,7 +168,7 @@ Cellmark Editor가 이미 켜져 있으면 연 파일은 켜져 있는 창에 �
 ### 문의
 
 버그 제보와 의견, 기술 협력·도입 문의: **contact@eurekax.co**. 이 저장소는 Issues를 쓰지 않습니다.
-홈페이지: https://eurekax.co
+홈페이지: https://eurekax.co/ko/cellmark-editor
 
 ### 상표
 
