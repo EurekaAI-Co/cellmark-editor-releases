@@ -1,18 +1,14 @@
 # Cellmark Editor
 
 A fast, lightweight Markdown editor for Windows that is especially good with tables.
-표에 특히 강한, 빠르고 가벼운 Windows용 Markdown 편집기입니다.
 
-**[Download / 내려받기](https://github.com/EurekaAI-Co/cellmark-editor-releases/releases/latest)** · [English](#english) · [한국어](#한국어)
+**[Download the latest version](https://github.com/EurekaAI-Co/cellmark-editor-releases/releases/latest)**
 
 This repository only hosts the Windows installers. The source code is not public.
-이 저장소에는 설치 파일만 있습니다. 소스 코드는 공개하지 않습니다.
 
----
+A Korean version of this page is [below](#한국어).
 
-## English
-
-Cellmark Editor is a fast, lightweight Markdown editor that is especially good with tables.
+## Features
 
 - **Live editing:** Formatting shows right where you type. Switch at any time to Source or Split view to see the Markdown, or to the publish view for the printed look.
 - **Powerful table editing:** Tables with merged cells or multi-row headers are kept intact in [LTEM (LLM-friendly Table-Enhanced Markdown)](https://github.com/hugman/ltem) format. Click a cell to edit it in place. Tables copied from the web, Word or Excel paste in with their merged cells intact.
@@ -22,14 +18,14 @@ Cellmark Editor is a fast, lightweight Markdown editor that is especially good w
 
 The app is available in English and Korean. The license agreement is currently available in Korean only.
 
-### System requirements
+## System requirements
 
 - Windows 10 (version 1809 or later) or Windows 11, 64-bit
 - About 380 MB of disk space. Table recognition uses about 0.5 GB of extra memory while it runs.
 - No graphics card or internet connection is needed.
 - Installing requires administrator rights (the app is installed for all users).
 
-### Download
+## Download
 
 Download `Cellmark-Editor-Setup-<version>.exe` from [Releases](https://github.com/EurekaAI-Co/cellmark-editor-releases/releases/latest). Each release lists the installer's SHA-256 in its notes and in `SHA256SUMS.txt`.
 
@@ -41,7 +37,7 @@ To check that the download is intact, run this in PowerShell and compare the res
 Get-FileHash .\Cellmark-Editor-Setup-<version>.exe -Algorithm SHA256
 ```
 
-### Install
+## Install
 
 1. **If "Windows protected your PC" appears, click More info, then Run anyway.**
    Windows shows this for programs it does not know yet. Cellmark Editor is signed with EurekaAI Co., Ltd.'s own (self-signed) certificate, not one from a certificate authority that Windows already trusts, so the publisher shows as "Unknown publisher". If the SHA-256 matches, the file is exactly as we released it.
@@ -49,11 +45,11 @@ Get-FileHash .\Cellmark-Editor-Setup-<version>.exe -Algorithm SHA256
 3. Read and accept the license agreement, choose an install folder and click **Install**.
 4. Start **Cellmark Editor** from the Start menu or the desktop. The license agreement is shown once more the first time you start the app.
 
-#### Check the signature (optional)
+### Check the signature (optional)
 
 Right-click the installer and choose **Properties → Digital Signatures**. The signer is **EurekaAI Co., Ltd.** Under **Details → View Certificate → Details**, the **Thumbprint** should match the certificate thumbprint in the release notes.
 
-### Open .md files with Cellmark Editor
+## Open .md files with Cellmark Editor
 
 Setup registers Cellmark Editor for Markdown (`.md`, `.markdown`) and LTEM (`.lmd`) files. `.lmd` files open in Cellmark Editor right away. Windows does not let an app make itself the default, so if another app already opens `.md` files, choose Cellmark Editor in one of these ways:
 
@@ -63,19 +59,19 @@ Setup registers Cellmark Editor for Markdown (`.md`, `.markdown`) and LTEM (`.lm
 
 If Cellmark Editor is already running, a file you open is added as a new tab in the same window.
 
-### Updates
+## Updates
 
 - When a new version is out, the app lets you know. Click **New version** in the status bar to download and install it.
 - To check for updates, the app only downloads a small file from a fixed address. It sends no information. A downloaded installer runs only after its SHA-256 and signature have been checked.
 - Where internet access is blocked, the update check is skipped quietly. You can download a new version from this page and install it over the installed one.
 - To turn off the update check, open **ⓘ (About)** in the app and turn off **Check for updates at startup**.
 
-### Uninstall
+## Uninstall
 
 - **Settings → Apps → Installed apps** (Windows 10: **Apps & features**) → **Cellmark Editor** → **Uninstall**
 - Settings, the recent documents list and autosaved text stay in `%APPDATA%\Cellmark Editor`. Delete that folder if you no longer need them.
 
-### For IT administrators
+## For IT administrators
 
 - **Redistribution:** You may distribute the unmodified installer inside your organization, for example through an internal software repository or deployment system, under the terms of the license agreement.
 - **Silent install:** From an administrator command prompt, run `Cellmark-Editor-Setup-<version>.exe /S`.
@@ -83,18 +79,20 @@ If Cellmark Editor is already running, a file you open is added as a new tab in 
 - **Default app associations (Group Policy or DISM XML):** The ProgIDs are `CellmarkEditor.Markdown` for `.md` and `.markdown`, and `CellmarkEditor.LTEM` for `.lmd`. The app name is "Cellmark Editor".
 - The app does not send documents, table images, recognition results or usage data off the PC. There is no remote error reporting and no usage statistics.
 
-### Contact
+## Contact
 
 Bug reports, feedback, and technology or adoption inquiries: **contact@eurekax.co**. Issues are not used in this repository.
 Website: https://eurekax.co
 
-### Trademarks
+## Trademarks
 
 "Hangul", "Hancom", "HWP" and "HWPX" are registered trademarks of Hancom Inc. Cellmark Editor is not affiliated with, sponsored by, or endorsed by Hancom.
 
 ---
 
 ## 한국어
+
+이 저장소에는 설치 파일만 있습니다. 소스 코드는 공개하지 않습니다.
 
 Cellmark Editor는 표에 특히 강한, 빠르고 가벼운 Markdown 편집기입니다.
 
