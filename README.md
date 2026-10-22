@@ -53,7 +53,7 @@ Right-click the installer and choose **Properties → Digital Signatures**. The 
 
 Setup registers Cellmark Editor for Markdown (`.md`, `.markdown`) and LTEM (`.lmd`) files. `.lmd` files open in Cellmark Editor right away. Windows does not let an app make itself the default, so if another app already opens `.md` files, choose Cellmark Editor in one of these ways:
 
-- **At the end of setup:** Leave **Also open Markdown (.md) files with Cellmark Editor** checked and click **Finish**. On Windows 11, click **Set default** at the top of the settings page that opens.
+- **At the end of setup:** Leave **Open .md files with Cellmark Editor too** checked and click **Finish**. On Windows 11, click **Set default** at the top of the settings page that opens.
 - **Open with:** Right-click a `.md` file, choose **Open with → Choose another app**, pick **Cellmark Editor** and click **Always** (Windows 10: check **Always use this app to open .md files** and click **OK**). On Windows 11, click **Show more options** first if you do not see **Open with**.
 - **Settings:** On Windows 11, go to **Settings → Apps → Default apps**, click **Cellmark Editor** and choose it for `.md`, `.markdown` and `.lmd`. On Windows 10, go to **Settings → Apps → Default apps → Choose default apps by file type**.
 
@@ -139,7 +139,7 @@ Get-FileHash .\Cellmark-Editor-Setup-<판>.exe -Algorithm SHA256
 
 설치하면 Cellmark Editor가 Markdown(`.md`, `.markdown`)과 LTEM(`.lmd`) 문서를 여는 프로그램으로 Windows에 등록됩니다. `.lmd` 파일은 바로 Cellmark Editor로 열립니다. Windows에서는 프로그램이 스스로 기본 앱이 될 수 없으므로, 다른 프로그램이 이미 `.md`를 열고 있다면 아래 방법 가운데 하나로 Cellmark Editor를 고릅니다.
 
-- **설치를 마칠 때:** 마지막 화면의 **[Markdown(.md) 문서도 Cellmark Editor로 열기]**에 표시한 채로 **[마침]**을 누릅니다. Windows 11은 열린 설정 화면 위쪽의 **[기본값으로 설정]**을 누릅니다.
+- **설치를 마칠 때:** 마지막 화면의 **[Markdown(.md) 파일도 Cellmark Editor로 열기]**에 표시한 채로 **[마침]**을 누릅니다. Windows 11은 열린 설정 화면 위쪽의 **[기본값으로 설정]**을 누릅니다.
 - **연결 프로그램:** `.md` 파일을 마우스 오른쪽 단추로 누르고 **[연결 프로그램] → [다른 앱 선택]**에서 **Cellmark Editor**를 고른 뒤 **[항상]**을 누릅니다(Windows 10: **[항상 이 앱을 사용하여 .md 파일 열기]**에 표시하고 **[확인]**). Windows 11에서 [연결 프로그램]이 안 보이면 먼저 [추가 옵션 표시]를 누릅니다.
 - **Windows 설정:** Windows 11은 **설정 → 앱 → 기본 앱**에서 **Cellmark Editor**를 눌러 `.md`, `.markdown`, `.lmd`를 고릅니다. Windows 10은 **설정 → 앱 → 기본 앱 → [파일 형식별 기본 앱 선택]**에서 고릅니다.
 
